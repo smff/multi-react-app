@@ -1,7 +1,5 @@
-import React, { useEffect } from "react";
-import { createRoot } from 'react-dom/client';
-
-const root = createRoot(document.getElementById('root'));
+import React,{ useEffect } from "react";
+import ReactDOM from "react-dom";
 
 import { Remote16 } from "./Remote16";
 import { Remote17 } from "./Remote17";
@@ -31,6 +29,4 @@ const ContainerApp = () => {
     )
 }
 
-root.render(
-    <ContainerApp/>
-)
+ReactDOM.render(<ContainerApp/>, document.getElementById('root'))

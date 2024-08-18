@@ -1,5 +1,5 @@
 import React, { Suspense, useEffect, useLayoutEffect, useRef } from 'react';
-import ReactDOM from 'react-dom-16';
+import ReactDOM from 'react-dom';
 
 const legacyRoot16 = "legacyRoot16";
 
