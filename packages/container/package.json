@@ -1,0 +1,20 @@
+{
+  "name": "container",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rsbuild dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-16": "npm:react@16.14.0",
+    "react-dom-16": "npm:react-dom@16.14.0",
+    "react-17": "npm:react@17.0.2",
+    "react-dom-17": "npm:react-dom@17.0.2"
+  }
+}

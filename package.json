@@ -1,0 +1,31 @@
+{
+  "name": "multi-react-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run dev:container & npm run dev:react16 & npm run dev:react17 & npm run dev:react18",
+    "dev:container": "npm run dev --workspace=container",
+    "dev:react16": "npm run dev --workspace=react16",
+    "dev:react17": "npm run dev --workspace=react17",
+    "dev:react18": "npm run dev --workspace=react18",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/container",
+    "packages/react16",
+    "packages/react17",
+    "packages/react18"
+  ],
+  "devDependencies": {
+    "@rsbuild/core": "^0.5.7",
+    "@rsbuild/plugin-react": "^0.5.7",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
